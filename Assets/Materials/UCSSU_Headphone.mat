@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UCSSU_Headphone
-  m_Shader: {fileID: 4800000, guid: 1d91a4fd10e709040aeccce392852f4d, type: 3}
+  m_Shader: {fileID: 4800000, guid: 88773d5c5d5642f4591c9a850312cfce, type: 3}
   m_ShaderKeywords: _EMISSIVE_SIMPLE _GLOSSYREFLECTIONS_OFF _IS_ANGELRING_OFF _IS_CLIPPING_OFF
     _IS_OUTLINE_CLIPPING_NO _OUTLINE_NML
   m_LightmapFlags: 4
@@ -126,6 +126,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RimLightMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Set_1st_ShadePosition:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -191,6 +195,7 @@ Material:
     - _ColorShift_Speed: 0
     - _Cull: 2
     - _CullMode: 2
+    - _CutOff: 0.5
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -251,6 +256,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _RimLight: 0
+    - _RimLightPower: 20
     - _RimLight_FeatherOff: 0
     - _RimLight_InsideMask: 0.0001
     - _RimLight_Power: 0.1
