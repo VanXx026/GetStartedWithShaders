@@ -12,6 +12,8 @@
 
 		_OutlineWidth ("Outline Width", Range(0.0, 3.0)) = 1.0
 		_OutlineColor ("Outline Color", Color) = (0.2, 0.2, 0.2, 1.0)
+    	
+    	_Range ("Range", Range(-1.0, 1.0)) = 0.0
     }
     SubShader
     {
@@ -41,7 +43,7 @@
 			half _SpecularThreshold;
 
 			float4 _LightColor0;
-
+            
             struct a2v
             {
                 float4 vertex : POSITION;
@@ -114,6 +116,8 @@
 			float _OutlineWidth;
 			half4 _OutlineColor;
 
+            float _Range;
+
             struct a2v
             {
                 float4 vertex : POSITION;
@@ -133,7 +137,7 @@
 
 				float3 viewPos = UnityObjectToViewPos(v.vertex);
 				float3 viewNormal = mul((float3x3)UNITY_MATRIX_IT_MV, v.normal);
-				viewNormal.z = -0.5;
+				viewNormal.z = _Range;
 				viewPos = viewPos + normalize(viewNormal) * _OutlineWidth * 0.002;
 				o.vertex = mul(UNITY_MATRIX_P, float4(viewPos, 1.0));
 				o.uv = TRANSFORM_TEX(v.uv, _MainTex);

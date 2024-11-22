@@ -21,10 +21,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityShaderUtilities.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityShaderVariables.cginc" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Shaders/StepByStep/ToonShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Shaders/ToonShadingCommon.cginc" />
+      <option value="$PROJECT_DIR$/Assets/StepByStep/1. BasicToon/Shaders/1_BasicToon_Final.shader" />
       <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonShader.shader" />
     </changedPaths>
   </component>
@@ -71,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731908185924</updated>
-      <workItem from="1731908188979" duration="13011000" />
+      <workItem from="1731908188979" duration="36100000" />
     </task>
     <servers />
   </component>
