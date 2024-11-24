@@ -18,16 +18,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityShaderUtilities.cginc" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityShaderVariables.cginc" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Shaders/StepByStep/ToonShader.shader" />
       <option value="$PROJECT_DIR$/Assets/Shaders/ToonShadingCommon.cginc" />
       <option value="$PROJECT_DIR$/Assets/StepByStep/1. BasicToon/Shaders/1_BasicToon_Final.shader" />
+      <option value="$PROJECT_DIR$/Assets/StepByStep/2. MoreToon/Shaders/2_MoreToon_Final.shader" />
       <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonShader.shader" />
     </changedPaths>
   </component>
@@ -41,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -75,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731908185924</updated>
       <workItem from="1731908188979" duration="36100000" />
+      <workItem from="1732425605127" duration="12123000" />
     </task>
     <servers />
   </component>

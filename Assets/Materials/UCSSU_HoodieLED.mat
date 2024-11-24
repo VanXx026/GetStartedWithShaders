@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UCSSU_HoodieLED
-  m_Shader: {fileID: 4800000, guid: 60a52dc422f535842b5058bef2c4a801, type: 3}
+  m_Shader: {fileID: 4800000, guid: dbcf0aee0e1cd4741b3e22ff27f36b94, type: 3}
   m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
@@ -117,6 +117,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RimLightMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimlightMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -266,12 +270,14 @@ Material:
     - _Outline_Width: 1
     - _Parallax: 0.02
     - _QueueOffset: 5
+    - _Range: 0
     - _ReceiveShadows: 1
     - _RimLight: 0
     - _RimLightPower: 20
     - _RimLight_FeatherOff: 0
     - _RimLight_InsideMask: 0.0001
     - _RimLight_Power: 0.1
+    - _RimlightPower: 20
     - _Rotate_EmissiveUV: 0
     - _Rotate_MatCapUV: 0
     - _Rotate_NormalMapForMatCapUV: 0
@@ -341,6 +347,7 @@ Material:
     - _OutlineColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
     - _Outline_Color: {r: 0, g: 0, b: 0, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimlightColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
     - _ShadowColor1st: {r: 1, g: 1, b: 1, a: 1}
     - _ShadowColor2nd: {r: 1, g: 1, b: 1, a: 1}

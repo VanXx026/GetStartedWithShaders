@@ -130,6 +130,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RimlightMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Set_1st_ShadePosition:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -159,6 +163,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowColor2ndTex:
+        m_Texture: {fileID: 2800000, guid: 44548edc04aad124ca4245ed491eb795, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex1:
+        m_Texture: {fileID: 2800000, guid: 0255a699949f34740b9682adff3c4060, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex2:
         m_Texture: {fileID: 2800000, guid: 44548edc04aad124ca4245ed491eb795, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -250,6 +262,7 @@ Material:
     - _Offset_X_Axis_BLD: -0.05
     - _Offset_Y_Axis_BLD: 0.09
     - _Offset_Z: 0
+    - _OutlineNormalOffset: -0.5
     - _OutlineWidth: 1.18
     - _Outline_Width: 2
     - _Parallax: 0.02
@@ -260,6 +273,7 @@ Material:
     - _RimLight_FeatherOff: 0
     - _RimLight_InsideMask: 0.0001
     - _RimLight_Power: 0.1
+    - _RimlightPower: 20
     - _Rotate_EmissiveUV: 0
     - _Rotate_MatCapUV: 0
     - _Rotate_NormalMapForMatCapUV: 0
@@ -322,9 +336,12 @@ Material:
     - _OutlineColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
     - _Outline_Color: {r: 0.38679248, g: 0.31928626, b: 0.31928626, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimlightColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShadowColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
     - _ShadowColor1st: {r: 1, g: 1, b: 1, a: 1}
     - _ShadowColor2nd: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowTex1Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowTex2Color: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ViewShift: {r: 0, g: 0, b: 0, a: 1}

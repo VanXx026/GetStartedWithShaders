@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UCSSU_Boots
-  m_Shader: {fileID: 4800000, guid: 60a52dc422f535842b5058bef2c4a801, type: 3}
+  m_Shader: {fileID: 4800000, guid: dbcf0aee0e1cd4741b3e22ff27f36b94, type: 3}
   m_ShaderKeywords: _EMISSIVE_SIMPLE _GLOSSYREFLECTIONS_OFF _IS_ANGELRING_OFF _IS_CLIPPING_OFF
     _IS_OUTLINE_CLIPPING_NO _OUTLINE_NML
   m_LightmapFlags: 4
@@ -245,6 +245,7 @@ Material:
     - _Outline_Width: 2
     - _Parallax: 0.02
     - _QueueOffset: 0
+    - _Range: 0
     - _ReceiveShadows: 1
     - _RimLight: 0
     - _RimLightPower: 20
