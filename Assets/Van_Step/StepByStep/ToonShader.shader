@@ -19,7 +19,7 @@
         
         _RimlightColor ("Rimlight Color", Color) = (1.0, 1.0, 1.0, 1.0)
         _RimlightPower ("Rimlight Power", Float) = 20.0
-        _RimlightMask ("Rimlight Mask", 2D) = "white" {} 
+        _RimlightMask ("Rimlight Mask", 2D) = "white" {}
         
     }
     SubShader
@@ -93,7 +93,7 @@
                 
                 // diffuse
                 float nDotL = dot(i.worldNormalDir, i.worldLightDir) * 0.5 + 0.5;
-                half2 diffGradient= tex2D(_GradientMap, half2(nDotL, 0.5)).rg;
+                half2 diffGradient= tex2D(_GradientMap, float2(nDotL, 0.5)).rg;
                 half3 diffuse = lerp(albedo, tex2D(_ShadowTex1, i.uv) * _ShadowTex1Color, diffGradient.x);
                 diffuse = lerp(diffuse, tex2D(_ShadowTex2, i.uv) * _ShadowTex2Color, diffGradient.y);
 
@@ -101,12 +101,12 @@
                 float3 halfDir = normalize(i.worldViewDir + i.worldLightDir);
                 float nDotH = dot(i.worldNormalDir, halfDir);
                 nDotH = pow(max(nDotH, 1e-5), _SpecularPower);
-                half specGradient = tex2D(_GradientMap, half2(nDotH, 0.5)).b;
+                half specGradient = tex2D(_GradientMap, float2(nDotH, 0.5)).b;
                 half3 specular = specGradient * _SpecularColor * albedo;
 
                 // rimlight
                 half nDotV = dot(i.worldNormalDir, i.worldViewDir);
-                half rimGradient = tex2D(_GradientMap, half2(pow(max(1.0 - clamp(nDotV, 0.0, 1.0), 1e-5), _RimlightPower), 0.5)).a;
+                half rimGradient = tex2D(_GradientMap, float2(pow(max(1.0 - clamp(nDotV, 0.0, 1.0), 1e-5), _RimlightPower), 0.5)).a;
                 float3 rimMask = tex2D(_RimlightMask, i.uv);
                 half3 rimlight = rimGradient * rimMask * _RimlightColor * diffuse;
                 
