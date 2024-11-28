@@ -18,6 +18,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityShaderUtilities.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityShaderVariables.cginc" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Shaders/StepByStep/ToonShader.shader" />
@@ -25,6 +30,8 @@
       <option value="$PROJECT_DIR$/Assets/StepByStep/1. BasicToon/Shaders/1_BasicToon_Final.shader" />
       <option value="$PROJECT_DIR$/Assets/StepByStep/2. MoreToon/Shaders/2_MoreToon_Final.shader" />
       <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonOpaqueCommon.cginc" />
+      <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonOutlineCommon.cginc" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2p0g0nANW533R2h8gvuG9Wjyvps" />
