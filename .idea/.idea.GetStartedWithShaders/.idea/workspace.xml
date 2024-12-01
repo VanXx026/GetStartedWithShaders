@@ -19,9 +19,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityShaderUtilities.cginc" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Unity2019.4.7/Editor/Data/CGIncludes/UnityShaderVariables.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unity/2019.4.7f1/Unity/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.18/UnityEngine.TestRunner/TestRunner/SynchronousFilter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unity/2019.4.7f1/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/DropdownEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.2.17/Editor/Actions/Menus/MenuItemActionBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -29,9 +31,13 @@
       <option value="$PROJECT_DIR$/Assets/Shaders/ToonShadingCommon.cginc" />
       <option value="$PROJECT_DIR$/Assets/StepByStep/1. BasicToon/Shaders/1_BasicToon_Final.shader" />
       <option value="$PROJECT_DIR$/Assets/StepByStep/2. MoreToon/Shaders/2_MoreToon_Final.shader" />
-      <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonShader.shader" />
-      <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonOpaqueCommon.cginc" />
+      <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonShaderAlphaTest.shader" />
       <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonOutlineCommon.cginc" />
+      <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonOpaqueCommon.cginc" />
+      <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonShaderTransparent.shader" />
+      <option value="$PROJECT_DIR$/Assets/StepByStep/5. Animation/Shaders/5_Animation_Final.shader" />
+      <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/ToonShader.shader" />
+      <option value="$PROJECT_DIR$/Assets/Van_Step/StepByStep/Animation.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2p0g0nANW533R2h8gvuG9Wjyvps" />
@@ -79,6 +85,8 @@
       <updated>1731908185924</updated>
       <workItem from="1731908188979" duration="36100000" />
       <workItem from="1732425605127" duration="14722000" />
+      <workItem from="1732809524381" duration="1896000" />
+      <workItem from="1732942664637" duration="26376000" />
     </task>
     <servers />
   </component>

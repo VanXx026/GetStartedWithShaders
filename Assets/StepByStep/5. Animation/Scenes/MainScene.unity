@@ -706,6 +706,8 @@ MonoBehaviour:
   m_AfterStackBundles:
   - assemblyQualifiedName: StylizedTonemapFinal, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  - assemblyQualifiedName: StylizedTonemap, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!20 &1687258584
 Camera:
   m_ObjectHideFlags: 0
@@ -985,6 +987,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MusicPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603137051057874399, guid: 193b715ab0307904581eec235a6a002d,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.323
       objectReference: {fileID: 0}
     - target: {fileID: 4748765613239068520, guid: 193b715ab0307904581eec235a6a002d,
         type: 3}

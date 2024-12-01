@@ -19,6 +19,8 @@ sampler2D _RimlightMask;
 
 float4 _LightColor0;
 
+half _AlphaCutoff;
+
 struct a2v
 {
     float3 vertex : POSITION;
@@ -50,7 +52,7 @@ v2f vert(a2v i)
 
 half4 frag(v2f i) : SV_Target
 {
-    half3 albedo = tex2D(_MainTex, i.uv) * _Color;
+    half4 albedo = tex2D(_MainTex, i.uv) * _Color;
 
     // ambient
     half3 ambient = ShadeSH9(half4(0.0, 1.0, 0.0, 1.0));
@@ -77,6 +79,14 @@ half4 frag(v2f i) : SV_Target
     // combine all
     half3 col = ambient * albedo + (diffuse + specular) * _LightColor0 + rimlight;
 
+#ifdef IS_ALPHA_TEST
+    clip(albedo.a - _AlphaCutoff);
+#endif
+
+#ifdef IS_TRANSPARENT
+    return half4(col.rgb, albedo.a);
+#else
     return half4(col.rgb, 1.0);
+#endif
 }
 #endif

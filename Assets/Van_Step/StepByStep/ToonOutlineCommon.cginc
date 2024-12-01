@@ -10,6 +10,8 @@ float _OutlineWidth;
 float4 _OutlineColor;
 float _OutlineNormalOffset;
 
+half _AlphaCutoff;
+
 struct a2v
 {
     float3 vertex : POSITION;
@@ -38,10 +40,18 @@ v2f vert(a2v i)
 
 half4 frag(v2f i) : SV_Target
 {
-    float3 albedo = tex2D(_MainTex, i.uv) * _Color;
+    float4 albedo = tex2D(_MainTex, i.uv) * _Color;
 
     float3 col = albedo * _OutlineColor.rgb;
 
-    return half4(col, 1.0);
+#ifdef IS_ALPHA_TEST
+    clip(albedo.a - _AlphaCutoff);
+#endif
+
+#ifdef IS_TRANSPARENT
+    return half4(col.rgb, albedo.a);
+#else
+    return half4(col.rgb, 1.0);
+#endif
 }
 #endif

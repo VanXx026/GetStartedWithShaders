@@ -13,7 +13,7 @@
 		_GridSize ("Grid Size", Range(0.0, 1.0)) = 0.1
 		_SpotSize ("Spot Size", Range(0.0, 0.5)) = 0.3
     }
-    SubShader
+    SubShader	
     {
 		Tags { "Queue" = "Transparent" "RenderType" = "Transparent" }
 
